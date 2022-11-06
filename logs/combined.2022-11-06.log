@@ -1,0 +1,1 @@
+{"context":{"bashCommandRequest":{"command":"git branch -a","userId":1},"type":"POST","userId":1},"level":"info","message":"Calling gitBashController:bashCommand()","timestamp":"2022-11-06 14:18:32"}
