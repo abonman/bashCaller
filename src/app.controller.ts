@@ -10,7 +10,7 @@ export class AppController {
 
   @Get()
   getHello(): AppTitleDTO {
-    Logger.log('Calling getHello()', "mainController");
+    // Logger.log('Calling getHello()', "mainController");
     return this.appService.getHello();
   }
 }

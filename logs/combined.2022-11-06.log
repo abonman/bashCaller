@@ -1,1 +1,110 @@
-{"context":{"bashCommandRequest":{"command":"git branch -a","userId":1},"type":"POST","userId":1},"level":"info","message":"Calling gitBashController:bashCommand()","timestamp":"2022-11-06 14:18:32"}
+{"context":{"body":{"command":"git branch -a","userId":0},"request":{"ipAddress":"::1","method":"POST","url":"/api/gitBash/run"},"response":{"statusCode":201,"statusMessage":"Created"}},"level":"info","message":"Calling gitBashController:bashCommand()","timestamp":"2022-11-06 16:16:31"}
+{"context":"ExceptionsHandler","level":"error","message":"Cannot set headers after they are sent to the client","stack":["Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:387:5)\n    at ServerResponse.setHeader (node:_http_outgoing:603:11)\n    at ServerResponse.header (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\express\\lib\\response.js:278:15)\n    at ExpressAdapter.reply (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\platform-express\\adapters\\express-adapter.js:50:62)\n    at RouterResponseController.apply (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\core\\router\\router-response-controller.js:15:36)\n    at C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:176:48\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:47:13"],"timestamp":"2022-11-06 16:16:31"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:17:18"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:17:18"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:17:18"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:17:18"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:17:18"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:17:18"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:17:18"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:17:18"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:17:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:17:32"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:17:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:17:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:17:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:17:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:17:32"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:17:32"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:17:49"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:17:49"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:17:49"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:17:49"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:17:49"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:17:49"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:17:49"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:17:49"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:17:55"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:17:55"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:17:55"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:17:55"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:17:55"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:17:55"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:17:55"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:17:55"}
+{"context":"ExceptionsHandler","level":"error","message":"Cannot set headers after they are sent to the client","stack":["Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:387:5)\n    at ServerResponse.setHeader (node:_http_outgoing:603:11)\n    at ServerResponse.header (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\express\\lib\\response.js:278:15)\n    at ExpressAdapter.reply (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\platform-express\\adapters\\express-adapter.js:50:62)\n    at RouterResponseController.apply (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\core\\router\\router-response-controller.js:15:36)\n    at C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:176:48\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:47:13"],"timestamp":"2022-11-06 16:17:56"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:20:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:20:32"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:20:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:20:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:20:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:20:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:20:32"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:20:32"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:22:45"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:22:45"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:22:45"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:22:45"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:22:45"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:22:45"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:22:45"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:22:45"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:22:50"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:22:50"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:22:50"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:22:50"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:22:50"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:22:50"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:22:50"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:22:50"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:23:07"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:23:07"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:23:07"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:23:07"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:23:07"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:23:07"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:23:07"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:23:07"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:23:17"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:23:17"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:23:17"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:23:17"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:23:17"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:23:17"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:23:17"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:23:17"}
+{"context":{"body":{"command":"git branch -a","userId":0},"request":{"ip":"::1","method":"POST","url":"/api/gitBash/run"},"response":{"statusCode":201,"statusMessage":"Created"}},"level":"info","message":"Calling gitBashController:bashCommand()","timestamp":"2022-11-06 16:23:22"}
+{"context":"ExceptionsHandler","level":"error","message":"Cannot set headers after they are sent to the client","stack":["Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:387:5)\n    at ServerResponse.setHeader (node:_http_outgoing:603:11)\n    at ServerResponse.header (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\express\\lib\\response.js:278:15)\n    at ExpressAdapter.reply (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\platform-express\\adapters\\express-adapter.js:50:62)\n    at RouterResponseController.apply (C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\core\\router\\router-response-controller.js:15:36)\n    at C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:176:48\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at C:\\Users\\cagrianik\\OneDrive\\Desktop\\bashCaller\\bashcaller\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:47:13"],"timestamp":"2022-11-06 16:23:22"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:23:35"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:23:35"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:23:35"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:23:35"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:23:35"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:23:35"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:23:35"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:23:35"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:23:36"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:23:36"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:23:36"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:23:36"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:23:36"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:23:36"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:23:36"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:23:36"}
+{"context":{"body":{"command":"git branch -a","userId":0},"request":{"ip":"::1","method":"POST","url":"/api/gitBash/run"},"response":{"statusCode":201}},"level":"info","message":"Calling gitBashController:bashCommand()","timestamp":"2022-11-06 16:23:39"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:25:08"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:25:08"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:25:08"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:25:08"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:25:08"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:25:08"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:25:08"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:25:08"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/api/main}:","timestamp":"2022-11-06 16:25:11"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/main, GET} route","timestamp":"2022-11-06 16:25:11"}
+{"context":"RoutesResolver","level":"info","message":"gitBashController {/api/gitBash}:","timestamp":"2022-11-06 16:25:11"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/:userId, GET} route","timestamp":"2022-11-06 16:25:11"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/run, POST} route","timestamp":"2022-11-06 16:25:11"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/availableCommandList/:userId, GET} route","timestamp":"2022-11-06 16:25:11"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/gitBash/branches/:userId, GET} route","timestamp":"2022-11-06 16:25:11"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-11-06 16:25:11"}

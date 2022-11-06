@@ -14,10 +14,16 @@
 ## Description
 simple bash script executor api
 
+## Requirements
+*node version v16.17.0 (node -v)
+
 ## Getting started
 run commands in order
 * npm install 
 * npm run build
 * npm run start
-* then open localhost:3000/api
+* then open localhost:3000/api (swagger)
 
+## Usage
+* Request are defined by using swagger
+* enjoy!

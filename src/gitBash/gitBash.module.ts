@@ -7,4 +7,4 @@ import { gitBashService } from './gitBash.service';
   controllers: [gitBashController],
   providers: [gitBashService],
 })
-export class GitBashModule {}
+export class GitBashModule { }
