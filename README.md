@@ -26,4 +26,5 @@ run commands in order
 
 ## Usage
 * Request are defined by using swagger
+* error and request details are saved in /logs/* file
 * enjoy!
